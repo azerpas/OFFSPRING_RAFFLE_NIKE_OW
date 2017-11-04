@@ -90,6 +90,8 @@ class Raffle(object):
 				if req.status_code == 200:
 					if jsonn['statusCode'] == "success":
 						print(colored('Successfully entered','red', attrs=['bold']))
+				else: 
+					log("Failed to register for: " + identity['mail'])
 				sleep = random.uniform(2.3,2.9)
 				log("Sleeping: " + str(sleep) + " seconds")
 				time.sleep(sleep)
