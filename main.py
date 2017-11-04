@@ -100,7 +100,7 @@ class Raffle(object):
 if __name__ == "__main__":
 	ra = Raffle()
 	accounts = [
-		# 11 5US , 18 9US , 14 7US
+		# ENTER YOUR ACCOUNTS HERE
 		{"fname":"pete","lname":"james","mail":"7768james@gmail.com","phone":"+33612334455","city":"London","zip":"HEC 178","shoesize":"10",},
 		]
 	# catpcha 
